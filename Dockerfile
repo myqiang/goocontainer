@@ -1,6 +1,6 @@
 FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.7.1 
 FROM gcr.io/google_containers/kube-discovery-amd64:1.0
-FROM gcr.io/google_containers/kubedns-amd64:1.9.0
+FROM gcr.io/google_containers/kubedns-amd64:1.9
 FROM gcr.io/google_containers/kube-proxy-amd64:v1.10.2
 FROM gcr.io/google_containers/kube-scheduler-amd64:v1.10.2
 FROM gcr.io/google_containers/kube-controller-manager-amd64:v1.10.2
